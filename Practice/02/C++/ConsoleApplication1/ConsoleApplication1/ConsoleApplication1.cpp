@@ -10,7 +10,7 @@ int main()
 	int a = 3, b = 3.14;
 	double c = 3, d = 3.14;
 
-	cout << "int " << a << " " << b << endl << "double " << c << " " << d << endl;
+	cout << "int " << endl << a << endl << b << endl << "double " << endl << c << endl << d << endl;
 
 	system("pause");
 }
