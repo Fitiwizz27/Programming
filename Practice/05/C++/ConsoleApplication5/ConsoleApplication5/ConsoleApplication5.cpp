@@ -9,7 +9,7 @@ int main()
 
 	double x, x0, v0, t, g = 9.8;
 	cin >> x0 >> v0 >> t;
-	x = x0 + v0 * t - (g * t * t / 2);
+	x =v0 * t - (g * t * t / 2);
 
 	cout << "Расстояние, которе объект преодолел за " << t << " с, " << abs(x) << endl;
 
