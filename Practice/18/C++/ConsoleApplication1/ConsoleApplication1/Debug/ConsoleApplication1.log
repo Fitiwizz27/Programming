@@ -1,6 +1,5 @@
 ﻿  ConsoleApplication1.cpp
-M:\Учеба\Программирование\Practice\18\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(16,20): warning C4018: <: несоответствие типов со знаком и без знака
-M:\Учеба\Программирование\Practice\18\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(17,21): warning C4018: <: несоответствие типов со знаком и без знака
-M:\Учеба\Программирование\Practice\18\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,9): warning C4101: len: неиспользованная локальная переменная
-M:\Учеба\Программирование\Practice\18\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(11,6): warning C4101: z: неиспользованная локальная переменная
+M:\Учеба\Программирование\Practice\18\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(18,20): warning C4018: <: несоответствие типов со знаком и без знака
+M:\Учеба\Программирование\Practice\18\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(19,21): warning C4018: <: несоответствие типов со знаком и без знака
+M:\Учеба\Программирование\Practice\18\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(31,20): warning C4018: <: несоответствие типов со знаком и без знака
   ConsoleApplication1.vcxproj -> M:\Учеба\Программирование\Practice\18\C++\ConsoleApplication1\Debug\ConsoleApplication1.exe
