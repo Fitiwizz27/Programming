@@ -30,7 +30,7 @@ int main()
 
 	for (int i = 0; i < slovo.size(); i++) {
 		for (int j = 0; j < 26; j++) {
-			if (slovo[i] == bykvy[j]) chanse = chanse * letters[j];
+			if (slovo[i] == bykvy[j]) chanse *= letters[j];
 		}
 	}
 

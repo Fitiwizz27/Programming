@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+M:\Учеба\Программирование\Practice\23\С++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(23,16): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+M:\Учеба\Программирование\Practice\23\С++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(40,36): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  ConsoleApplication1.vcxproj -> M:\Учеба\Программирование\Practice\23\С++\ConsoleApplication1\Debug\ConsoleApplication1.exe
