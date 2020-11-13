@@ -1,36 +1,34 @@
 ﻿#include <iostream>
 #include <cmath>
-#include <M:\Учеба\Программирование\Practice\23\С++\ConsoleApplication1\Functions\fact.h>
+#include "Talor.h"
+#include "fact.h"
+#include "comb.h"
 
+const double Pi = 3.14159265359;
 using namespace std;
-
-int Talor(int x, int k)
-{
-    if (x > 0)
-    {
-        double anws = 0;
-
-        for (int i = 0; i < k; i++)
-        {
-            anws = pow(-1, i) * (pow(x, 2 * i + 1) / (fact(2 * i + 1))) + anws;
-        }
-        return anws;
-    }
-    else return 0;      
-}
 
 int main()
 {
+    //Вывод факториала до 10
     cout << "n \t" << "n! \n";
     for (int i = 1; i < 11; i++)
     {
         cout << i << "\t" << fact(i) << endl;
     }
-
+    
+    //Вывод синуса угла с количеством разложений 5
     cout << endl << "x \t" << "sin(x) \n";
-    for (int i = 0; i < 47; i++)
+    for (double x = 0; x <= Pi / 4; x += Pi / 180)
     {
-        double x = 0;
-        cout << x << "\t" << Talor(x, i) << endl;
+        cout.precision(4);
+        cout << x << "\t" << Talor(x, 5) << endl;
     }
+
+    //Вывод сечетаний
+    cout << endl << "k \t" << "c(k, 10) \n";
+    for (int i = 1; i < 11; i++)
+    {
+        cout << i << "\t" << comb(i, 10) << endl;
+    }
+
 }
