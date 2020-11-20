@@ -52,7 +52,9 @@ http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=[{API key}](http
 
 Переходим по созданной ссылке и получаем следующий результат в виде JSON кода. (Рис. 1.1)
 
-![pic1](./image/pic1.png)
+![Рис. 1.1](./image/pic1.png)
+
+<center> <i> Рисунок 1.1. Полученный запрос с сайта. </center>
 
 
 ## Вывод по работе. 
