@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+M:\Учеба\Программирование\Practice\27\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(17,21): warning C4018: <: несоответствие типов со знаком и без знака
+M:\Учеба\Программирование\Practice\27\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(85): message : выполняется компиляция ссылки на экземпляр шаблон функции "void print<int>(std::vector<int,std::allocator<int>>)"
+M:\Учеба\Программирование\Practice\27\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(49,20): warning C4018: <: несоответствие типов со знаком и без знака
+M:\Учеба\Программирование\Practice\27\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(60): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool check<int>(std::vector<int,std::allocator<int>>)"
+M:\Учеба\Программирование\Practice\27\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(85): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::vector<int,std::allocator<int>> BozoSort<int>(std::vector<int,std::allocator<int>>)"
+  ConsoleApplication1.vcxproj -> M:\Учеба\Программирование\Practice\27\C++\ConsoleApplication1\Debug\ConsoleApplication1.exe

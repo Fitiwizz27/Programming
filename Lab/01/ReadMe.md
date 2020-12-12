@@ -46,15 +46,15 @@
 
 c4acec87ef8b2efa7d453114d03c8679
 
-Далее подставляем наш ключ в ссылку, которая имеет следующий вид.
+Далее подставляем наш ключ в ссылку, которая будет имеет следующий вид.
 
-http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=[{API key}](https://home.openweathermap.org/api_keys)
+http://api.openweathermap.org/data/2.5/forecast?id=524901&appid=c4acec87ef8b2efa7d453114d03c8679
 
 Переходим по созданной ссылке и получаем следующий результат в виде JSON кода. (Рис. 1.1)
 
 ![Рис. 1.1](./image/pic1.png)
 
-<center> <i> Рисунок 1.1. Полученный запрос с сайта. </center>
+<center> <i align="center"> Рисунок 1.1. Полученный запрос с сайта. </center>
 
 
 ## Вывод по работе. 
