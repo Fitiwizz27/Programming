@@ -1,4 +1,0 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\Сергей\Desktop\Рабочий стол\Учеба\Программирование\Practice\10\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(10,35): warning C4101: var2: неиспользованная локальная переменная
-C:\Users\Сергей\Desktop\Рабочий стол\Учеба\Программирование\Practice\10\C++\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(10,29): warning C4101: var1: неиспользованная локальная переменная
-  ConsoleApplication1.vcxproj -> C:\Users\Сергей\Desktop\Рабочий стол\Учеба\Программирование\Practice\10\C++\ConsoleApplication1\Debug\ConsoleApplication1.exe
