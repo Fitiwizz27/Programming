@@ -53,11 +53,15 @@ c4acec87ef8b2efa7d453114d03c8679
 
 <center> <i align="center"> Рисунок 1. Полученный запрос с сайта. </center>
 
+
+
 Далее нам нужно получить прогноз погоды для Симферополя с почасовым интервалом, в градусах Цельсия и на русском языке. Координаты Симферополя были взяты с сайта https://mysuntime.ru/coordinates/ru.simferopol/. (Рис. 2)
 
 ![Рис. 2](./image/pic2.png)
 
 <center> <i align="center"> Рисунок 2. Координаты Симферополя. </center>
+
+
 
 Создаем ссылку и переходим на сайт: https://api.openweathermap.org/data/2.5/onecall?lat=44.571270&lon=34.614470&exclude=hourly&units=metric&lang=ru&appid=c4acec87ef8b2efa7d453114d03c8679
 
@@ -65,11 +69,15 @@ c4acec87ef8b2efa7d453114d03c8679
 
 <center> <i align="center"> Рисунок 3. Созданная ссылка погоды для Симферополя. </center>
 
+
+
 Полученный JSON код вставляем в сайт https://codebeautify.org/jsonviewer для более удобного обозревания. (Рис. 4)
 
 ![Рис. 4](./image/pic4.png)
 
-<center> <i align="center"> Рисунок 4.Вид нашего JSON кода в виде дерева. </center>
+<center> <i align="center"> Рисунок 4. Вид нашего JSON кода в виде дерева. </center>
+
+
 
 ### Задание 2
 
@@ -78,6 +86,8 @@ c4acec87ef8b2efa7d453114d03c8679
 ![Рис. 5](./image/pic5.png)
 
 <center> <i align="center"> Рисунок 5. API сайта http://worldtimeapi.org/. </center>
+
+
 
 ### Задание 3
 
@@ -299,11 +309,15 @@ int main() {
 
 <center> <i align="center"> Рисунок 6. Проверка серверного приложения. </center>
 
+
+
 После этого проверяем http://localhost:3000/raw
 
 ![Рис. 7](./image/pic7.png)
 
 <center> <i align="center"> Рисунок 7. Проверка "сырых" данных серверного приложения. </center>
+
+
 
 ### Задание 4
 
@@ -360,6 +374,8 @@ root.mainloop()
 ![Рис. 8](./image/pic8.png)
 
 <center> <i align="center"> Рисунок 8. Проверка клиентского приложения. </center>
+
+
 
 ## Вывод по работе. 
 
